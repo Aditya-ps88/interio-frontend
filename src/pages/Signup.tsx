@@ -38,10 +38,10 @@ const Signup = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-center"
+            className="glass-hero rounded-3xl p-8 md:p-12 text-center"
           >
-            <InterioLogo variant="light" className="text-3xl mb-8 justify-center" />
-            <p className="text-card text-2xl font-light tracking-wide font-serif">
+            <InterioLogo variant="light" className="text-3xl mb-6 justify-center" />
+            <p className="text-card text-xl md:text-2xl font-light tracking-wide font-serif">
               Elevate your everyday<br />Join Interio.
             </p>
           </motion.div>

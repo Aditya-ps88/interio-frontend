@@ -5,7 +5,7 @@ import heroImage from "@/assets/hero-living-room.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen w-full overflow-hidden">
+    <section className="relative min-h-[90vh] w-full overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
@@ -17,7 +17,7 @@ const HeroSection = () => {
       </div>
 
       {/* Glass Card */}
-      <div className="relative z-10 min-h-screen flex items-center px-6 md:px-12 lg:px-20 pt-20">
+      <div className="relative z-10 min-h-[90vh] flex items-center px-6 md:px-12 lg:px-20 pt-20">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -26,7 +26,6 @@ const HeroSection = () => {
         >
           {/* Decorative curve */}
           <div className="absolute -top-8 -right-8 w-40 h-40 border-2 border-foreground/10 rounded-full pointer-events-none" />
-          <div className="absolute -bottom-4 -left-4 w-24 h-24 border border-foreground/10 rounded-full pointer-events-none" />
           
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
@@ -43,7 +42,8 @@ const HeroSection = () => {
             transition={{ duration: 0.6, delay: 0.5 }}
             className="text-foreground/80 text-lg md:text-xl font-light mb-8 leading-relaxed"
           >
-            Explore Every Style. Discover Every Space
+            Your Home With Modern Design<br />
+            And Timeless Furniture
           </motion.p>
           
           <motion.div
