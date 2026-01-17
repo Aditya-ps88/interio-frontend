@@ -1,8 +1,7 @@
 import Navbar from "@/components/layout/Navbar";
 import HeroSection from "@/components/home/HeroSection";
-import StatsSection from "@/components/home/StatsSection";
-import FeaturedProjectSection from "@/components/home/FeaturedProjectSection";
-import ValuesSection from "@/components/home/ValuesSection";
+import FeaturesGrid from "@/components/home/FeaturesGrid";
+import ProjectCardStack from "@/components/home/ProjectCardStack";
 import Footer from "@/components/layout/Footer";
 
 const Index = () => {
@@ -11,9 +10,8 @@ const Index = () => {
       <Navbar />
       <main>
         <HeroSection />
-        <StatsSection />
-        <FeaturedProjectSection />
-        <ValuesSection />
+        <FeaturesGrid />
+        <ProjectCardStack />
       </main>
       <Footer />
     </div>
