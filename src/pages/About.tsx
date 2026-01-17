@@ -1,11 +1,12 @@
+import { motion } from "framer-motion";
 import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 import HeroSection from "@/components/home/HeroSection";
 import PhilosophySection from "@/components/home/PhilosophySection";
 import StatsBar from "@/components/home/StatsBar";
 import ValuesSection from "@/components/home/ValuesSection";
-import Footer from "@/components/layout/Footer";
 
-const Index = () => {
+const About = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
@@ -20,4 +21,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default About;
